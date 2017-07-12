@@ -5,7 +5,7 @@ Often times you'll be given a set of data that you need to display in an easy to
 
 ## Download Starter Files
 
-- https://tiy-learn-content.s3.amazonaws.com/eb5239f5-starter_files.zip"
+- https://tiy-learn-content.s3.amazonaws.com/eb5239f5-starter_files.zip
 
 Inside of the starter_files, you'll find two files.
 
@@ -25,10 +25,10 @@ Lastly, we purposefully didn't include any HTML or CSS. That is completely up to
 
 ## Mockup  
 
-![Mockup]https://tiy-learn-content.s3.amazonaws.com/65ab3f02-users.jpg
+![Mockup](https://tiy-learn-content.s3.amazonaws.com/65ab3f02-users.jpg)
 
 ## Hard Mode  
 
 You'll notice in the mockup, their SSN is listed. You should display this on the page as well, but have it be blurred out by default. Then on hover, allow the user to see it.
 
-![hardmode pic] https://tiy-learn-content.s3.amazonaws.com/9620259b-like3.gif
+![hardmode pic] (https://tiy-learn-content.s3.amazonaws.com/9620259b-like3.gif)
