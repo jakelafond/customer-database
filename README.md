@@ -31,4 +31,4 @@ Lastly, we purposefully didn't include any HTML or CSS. That is completely up to
 
 You'll notice in the mockup, their SSN is listed. You should display this on the page as well, but have it be blurred out by default. Then on hover, allow the user to see it.
 
-![hardmode pic] (https://tiy-learn-content.s3.amazonaws.com/9620259b-like3.gif)
+![hardmode pic](https://tiy-learn-content.s3.amazonaws.com/9620259b-like3.gif)
