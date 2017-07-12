@@ -43,10 +43,19 @@ ul{
   color: grey;
   margin: 0;
 }
-.ssn {
+.ssndefault {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.3);
+  margin-top: 3em;
+  margin-bottom:3em;
+}
+.ssnvis {
   text-transform: capitalize;
   font-weight: normal;
   color: green;
+  text-shadow: 0 0 0px ;
   margin-top: 3em;
   margin-bottom:3em;
 }

@@ -1,4 +1,4 @@
-console.log(customers);
+
 var see = 'hello';
 var ul = document.querySelector('.person-list');
 
@@ -39,8 +39,27 @@ customers.results.forEach(function(data,index){
 
   var pSSN = document.createElement('p');
   pSSN.textContent = customers['results'][index].id['value'];
-  pSSN.className = 'ssn';
+  pSSN.className = 'ssndefault';
   li.appendChild(pSSN);
 
   console.log(customers['results'][index].name);
 });
+
+var classname = document.getElementsByClassName("ssndefault");
+var classname2 = document.getElementsByClassName('ssnvis');
+
+var turnVis = function() {
+    var attribute = this.setAttribute('class',"ssnvis");
+};
+
+for (var i = 0; i < classname.length; i++) {
+    classname[i].addEventListener('mouseover', turnVis, false);
+}
+
+var goAway = function() {
+    var attribute2 = this.setAttribute('class',"ssndefault");
+};
+
+for (var i = 0; i < classname.length; i++) {
+    classname[i].addEventListener('mouseout', goAway, false);
+}
