@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+li {
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 1em;
+  align-items: center;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.name {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-bottom: solid 3px green;
+  margin: .5em;
+}
+.email {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: grey;
+  margin: .5em;
+}
+.address {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: grey;
+  margin: 0;
+}
+.tel {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: grey;
+  margin: 0;
+}
+.ssn {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: green;
+}
+img {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
