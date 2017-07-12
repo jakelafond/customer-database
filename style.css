@@ -6,13 +6,13 @@ h1 {
   text-transform: uppercase;
 }
 li {
-  display:flex;
+  display: flex;
   flex-direction: column;
   list-style: none;
   margin: 1em;
   align-items: center;
 }
-ul{
+ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,17 +47,17 @@ ul{
   text-transform: capitalize;
   font-weight: normal;
   color: transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.3);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   margin-top: 3em;
-  margin-bottom:3em;
+  margin-bottom: 3em;
 }
 .ssnvis {
   text-transform: capitalize;
   font-weight: normal;
   color: green;
-  text-shadow: 0 0 0px ;
+  text-shadow: 0 0 0px;
   margin-top: 3em;
-  margin-bottom:3em;
+  margin-bottom: 3em;
 }
 img {
   flex-grow: 1;

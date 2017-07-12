@@ -1,8 +1,6 @@
-
-var see = 'hello';
 var ul = document.querySelector('.person-list');
 
-customers.results.forEach(function(data,index){
+customers.results.forEach(function(data, index) {
   var li = document.createElement('li');
   ul.appendChild(li);
 
@@ -29,7 +27,9 @@ customers.results.forEach(function(data,index){
   newAddress.appendChild(pStreet);
 
   var pCityStateZip = document.createElement('p');
-  pCityStateZip.textContent = `${customers['results'][index].location['city']}, ${customers['results'][index].location['state']} ${customers['results'][index].location['postcode']}`;
+  pCityStateZip.textContent = `${customers['results'][index].location['city']}, ${customers['results'][index].location[
+    'state'
+  ]} ${customers['results'][index].location['postcode']}`;
   newAddress.appendChild(pCityStateZip);
 
   var pTel = document.createElement('p');
@@ -45,21 +45,21 @@ customers.results.forEach(function(data,index){
   console.log(customers['results'][index].name);
 });
 
-var classname = document.getElementsByClassName("ssndefault");
+var classname = document.getElementsByClassName('ssndefault');
 var classname2 = document.getElementsByClassName('ssnvis');
 
 var turnVis = function() {
-    var attribute = this.setAttribute('class',"ssnvis");
+  var attribute = this.setAttribute('class', 'ssnvis');
 };
 
 for (var i = 0; i < classname.length; i++) {
-    classname[i].addEventListener('mouseover', turnVis, false);
+  classname[i].addEventListener('mouseover', turnVis);
 }
 
 var goAway = function() {
-    var attribute2 = this.setAttribute('class',"ssndefault");
+  var attribute2 = this.setAttribute('class', 'ssndefault');
 };
 
 for (var i = 0; i < classname.length; i++) {
-    classname[i].addEventListener('mouseout', goAway, false);
+  classname[i].addEventListener('mouseout', goAway);
 }
